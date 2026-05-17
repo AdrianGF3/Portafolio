@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 function Navbar() {
     const [menuOpen, setMenuOpenState] = useState(false);
+    const { t, i18n } = useTranslation();
 
     // Función hamburguesa, responsive navbar
     function setMenuOpen(value: boolean): void {
@@ -15,11 +17,11 @@ function Navbar() {
                     Adrian G.
                 </div>
                 <ul className="hidden md:flex items-center">
-                    <li><a>Inicio</a></li>
-                    <li><a>Sobre mí</a></li>
-                    <li><a>Trabajos destacados</a></li>
-                    <li><a>Habilidades</a></li>
-                    <li><a>Contacto</a></li>
+                    <li><a>{t("nav.home")}</a></li>
+                    <li><a>{t("nav.about")}</a></li>
+                    <li><a>{t("nav.works")}</a></li>
+                    <li><a>{t("nav.skills")}</a></li>
+                    <li><a>{t("nav.contact")}</a></li>
                 </ul>
 
                 <button onClick={() => setMenuOpen(!menuOpen)} 
@@ -32,11 +34,11 @@ function Navbar() {
 
                 {menuOpen && (
                     <div className="md:hidden items-center absolute">
-                        <a onClick={() => setMenuOpen(false)}>Inicio</a>
-                        <a onClick={() => setMenuOpen(false)}>Sobre mí</a>
-                        <a onClick={() => setMenuOpen(false)}>Trabajos destacados</a>
-                        <a onClick={() => setMenuOpen(false)}>Habilidades</a>
-                        <a onClick={() => setMenuOpen(false)}>Contacto</a>
+                        <a onClick={() => setMenuOpen(false)}>{t("nav.home")}</a>
+                        <a onClick={() => setMenuOpen(false)}>{t("nav.about")}</a>
+                        <a onClick={() => setMenuOpen(false)}>{t("nav.works")}</a>
+                        <a onClick={() => setMenuOpen(false)}>{t("nav.skills")}</a>
+                        <a onClick={() => setMenuOpen(false)}>{t("nav.contact")}</a>
                     </div>
                 )}
             </nav>
