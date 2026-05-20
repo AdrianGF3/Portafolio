@@ -5,5 +5,13 @@
         "works": "Featured Works",
         "skills": "Skills",
         "contact": "Contact"
+    },
+
+    "title": {
+        "01": "Sequentia.app",
+        "02": "FCTnexus",
+        "03": "consultas medicas"
     }
+
+
 }
