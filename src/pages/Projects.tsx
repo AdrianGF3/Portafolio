@@ -112,7 +112,7 @@ function Projects() {
     const visibleIndexes = getVisibleIndexes();
 
     return (
-        <section id="projects" className="bg-black mt-24 xl:px-48 lg:px-32 md:px-24 sm:px-12 py-12">
+        <section className="bg-black overflow-hidden mt-24 xl:px-48 lg:px-32 md:px-24 sm:px-12 py-12">
             <h2 className="text-[3rem] text-white font-extrabold mt-2 bg-clip-text mb-24 text-center">
                 Trabajos destacados
             </h2>

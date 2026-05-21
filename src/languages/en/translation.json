@@ -11,6 +11,20 @@
         "01": "Sequentia.app",
         "02": "FCTnexus",
         "03": "consultas medicas"
+    },
+
+    "about": {
+        "title": "About Me",
+        "description": "I am a full-stack developer passionate about creating exceptional web experiences. I specialize in developing dynamic, intuitive, and user-centered websites and applications, combining solid functionality with carefully crafted visual experiences. Thanks to my full-stack development training, I have a strong foundation in both frontend and backend technologies, allowing me to approach projects comprehensively. I am currently very motivated, eager to continue learning and growing as a developer.",
+        "title01": "CFGS en Diseño gráfico",
+        "period01": "Sep 2019 - Jun 2021",
+        "desc01": "CFGS en ilustración y diseño visual donde adquirí habilidades en diseño gráfico, branding y herramientas como Adobe Photoshop e Illustrator. Esta formación me proporcionó una base sólida en principios de diseño que aplico en el desarrollo web.",
+        "title02": "CFGS en desarrollo de aplicaciones web (DAW)",
+        "period02": "Sep 2023 - May 2025",
+        "desc02": "Estudios superiores en desarrollo web, donde he adquirido una base sólida tanto en frontend como backend. Durante el curso, he trabajado con tecnologías como PHP, JavaScript, MySQL, y he desarrollado proyectos completos desde cero.",
+        "title03": "Sequentia",
+        "period03": "Ene 2025 - Jun 2025",
+        "desc03": "Desarrollador Full-Stack de la landing page para la startup Sequentia, desarrollando el proyecto con el framework React y Node.js."
     }
 
 
