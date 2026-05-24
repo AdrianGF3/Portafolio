@@ -38,7 +38,7 @@ function About() {
 
             <p className="mb-6 text-center">{t("about.description")}</p>
 
-            <div className="relative my-12 md:mx-24 border-l-4 border-purple-500 py-12 pl-6">
+            <div className="mb-48 relative my-12 md:mx-24 border-l-4 border-purple-500 py-12 pl-6">
 
                 <div>
                     <h3 className="font-semibold text-black/50 text-xl">

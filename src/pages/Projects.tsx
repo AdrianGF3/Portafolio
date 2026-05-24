@@ -114,12 +114,12 @@ function Projects() {
     return (
         //errores por permitir el tipo any, en TS no estaria correcto, pero funciona porque sigue siendo JS, al intentar arreglarlo la pagina entera dejo de funcionar, asi que lo dejo asi por ahora
         <section id="projects" className="bg-black overflow-hidden mt-24 xl:px-48 lg:px-32 md:px-24 sm:px-12 py-12">
-            <h2 className="text-[3rem] text-white font-extrabold mt-2 bg-clip-text mb-24 text-center">
+            <h2 className="px-4 py-4 text-[3rem] text-white font-extrabold mt-2 bg-clip-text md:mb-24 mb-12 text-center">
                 Trabajos destacados
             </h2>
 
             <div
-                className="relative flex justify-center items-center h-80 select-none cursor-grab"
+                className="px-4 py-4 relative flex justify-center items-center h-80 select-none cursor-grab"
                 onMouseDown={handleDragStart}
                 onMouseMove={handleDragMove}
                 onMouseUp={handleDragEnd}
@@ -158,7 +158,7 @@ function Projects() {
                                     src={proj.image}
                                     alt={proj.title}
                                     draggable={false}
-                                    className="object-cover brightness-60 rounded-lg shadow-lg xl:w-[800px] md:w-[600px] h-64 sm:h-72 md:h-80 transition-all duration-300"
+                                    className="px-4 py-4 object-cover brightness-60 rounded-lg shadow-lg xl:w-[800px] md:w-[600px] h-64 sm:h-72 md:h-80 transition-all duration-300"
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center">
                                     <span className="text-white text-2xl font-bold border-4 rounded-full px-3 py-1">
