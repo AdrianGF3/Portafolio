@@ -32,13 +32,13 @@ function About() {
         setCurrent((prev) => (prev - 1 + timeline.length) % timeline.length);
 
     return (
-        <section className="max-w-6xl mx-auto px-6">
+        <section id="about" className="max-w-6xl mx-auto px-6">
 
             <h2 className="text-[3rem] font-extrabold mt-24 mb-6 text-center">{t("about.title")}</h2>
 
             <p className="mb-6 text-center">{t("about.description")}</p>
 
-            <div className="relative my-12 mx-24 border-l-4 border-purple-500 py-12 pl-6">
+            <div className="relative my-12 md:mx-24 border-l-4 border-purple-500 py-12 pl-6">
 
                 <div>
                     <h3 className="font-semibold text-black/50 text-xl">

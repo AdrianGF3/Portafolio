@@ -112,7 +112,8 @@ function Projects() {
     const visibleIndexes = getVisibleIndexes();
 
     return (
-        <section className="bg-black overflow-hidden mt-24 xl:px-48 lg:px-32 md:px-24 sm:px-12 py-12">
+        //errores por permitir el tipo any, en TS no estaria correcto, pero funciona porque sigue siendo JS, al intentar arreglarlo la pagina entera dejo de funcionar, asi que lo dejo asi por ahora
+        <section id="projects" className="bg-black overflow-hidden mt-24 xl:px-48 lg:px-32 md:px-24 sm:px-12 py-12">
             <h2 className="text-[3rem] text-white font-extrabold mt-2 bg-clip-text mb-24 text-center">
                 Trabajos destacados
             </h2>

@@ -17,11 +17,11 @@ function Navbar() {
                     Adrian G.
                 </div>
                 <ul className="hidden md:flex items-center gap-6 text-white">
-                    <li><a>{t("nav.home")}</a></li>
-                    <li><a>{t("nav.about")}</a></li>
-                    <li><a>{t("nav.works")}</a></li>
-                    <li><a>{t("nav.skills")}</a></li>
-                    <li><a>{t("nav.contact")}</a></li>
+                    <li><a href="#home">{t("nav.home")}</a></li>
+                    <li><a href="#about">{t("nav.about")}</a></li>
+                    <li><a href="#projects">{t("nav.works")}</a></li>
+                    <li><a href="#skills">{t("nav.skills")}</a></li>
+                    <li><a href="#contact">{t("nav.contact")}</a></li>
                 </ul>
 
                 <button onClick={() => setMenuOpen(!menuOpen)} 
@@ -34,11 +34,11 @@ function Navbar() {
 
                 {menuOpen && (
                     <ul className="md:hidden right-0 z-50 absolute h-full w-full gap-6 text-white text-center">
-                        <a><li className="bg-black" onClick={() => setMenuOpen(false)}>{t("nav.home")}</li></a>
-                        <a><li className="bg-black" onClick={() => setMenuOpen(false)}>{t("nav.about")}</li></a>
-                        <a><li className="bg-black" onClick={() => setMenuOpen(false)}>{t("nav.works")}</li></a>
-                        <a><li className="bg-black" onClick={() => setMenuOpen(false)}>{t("nav.skills")}</li></a>
-                        <a><li className="bg-black" onClick={() => setMenuOpen(false)}>{t("nav.contact")}</li></a>
+                        <a href="#home"><li className=" bg-black pt-2" onClick={() => setMenuOpen(false)}>{t("nav.home")}</li></a>
+                        <a href="#about"><li className="bg-black pt-2" onClick={() => setMenuOpen(false)}>{t("nav.about")}</li></a>
+                        <a href="#projects"><li className="bg-black pt-2" onClick={() => setMenuOpen(false)}>{t("nav.works")}</li></a>
+                        <a href="#skills"><li className="bg-black pt-2" onClick={() => setMenuOpen(false)}>{t("nav.skills")}</li></a>
+                        <a href="#contact"><li className="bg-black pt-2 pb-2" onClick={() => setMenuOpen(false)}>{t("nav.contact")}</li></a>
                     </ul>
                 )}
             </nav>
