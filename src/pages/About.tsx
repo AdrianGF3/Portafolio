@@ -56,14 +56,14 @@ function About() {
 
                 <button
                     onClick={prevItem}
-                    className="absolute top-0 left-1/2"
+                    className="text-xl hover:text-purple-500 absolute top-0 left-1/2"
                 >
                     ▲
                 </button>
 
                 <button
                     onClick={nextItem}
-                    className="absolute bottom-0 left-1/2"
+                    className="text-xl hover:text-purple-500 absolute bottom-0 left-1/2"
                 >
                     ▼
                 </button>

@@ -31,11 +31,11 @@ function Navbar() {
                     Adrian G.
                 </div>
                 <ul className="hidden md:flex items-center gap-6 text-white">
-                    <li><a href="#home">{t("nav.home")}</a></li>
-                    <li><a href="#about">{t("nav.about")}</a></li>
-                    <li><a href="#projects">{t("nav.works")}</a></li>
-                    <li><a href="#skills">{t("nav.skills")}</a></li>
-                    <li><a href="#contact">{t("nav.contact")}</a></li>
+                    <li><a href="#home" className="hover:text-purple-500">{t("nav.home")}</a></li>
+                    <li><a href="#about" className="hover:text-purple-500">{t("nav.about")}</a></li>
+                    <li><a href="#projects" className="hover:text-purple-500">{t("nav.works")}</a></li>
+                    <li><a href="#skills" className="hover:text-purple-500">{t("nav.skills")}</a></li>
+                    <li><a href="#contact" className="hover:text-purple-500">{t("nav.contact")}</a></li>
                 </ul>
 
                 <button onClick={() => setMenuOpen(!menuOpen)}
