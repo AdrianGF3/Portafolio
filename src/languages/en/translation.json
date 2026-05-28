@@ -6,28 +6,99 @@
         "skills": "Skills",
         "contact": "Contact"
     },
-
+    "home": {
+        "title": "I'm Adrian Gomez",
+        "p1": "Web developer passionate about transforming ideas into useful and efficient applications. Focused on generating real impact and continuous growth."
+    },
     "title": {
         "01": "Sequentia.app",
         "02": "FCTnexus",
-        "03": "consultas medicas"
+        "03": "medical consultations"
     },
-
     "about": {
         "title": "About Me",
-        "description": "I am a full-stack developer passionate about creating exceptional web experiences. I specialize in developing dynamic, intuitive, and user-centered websites and applications, combining solid functionality with carefully crafted visual experiences. Thanks to my full-stack development training, I have a strong foundation in both frontend and backend technologies, allowing me to approach projects comprehensively. I am currently very motivated, eager to continue learning and growing as a developer.",
-        "title01": "CFGS en Diseño gráfico",
-        "period01": "Sep 2019 - Jun 2021",
-        "desc01": "CFGS en ilustración y diseño visual donde adquirí habilidades en diseño gráfico, branding y herramientas como Adobe Photoshop e Illustrator. Esta formación me proporcionó una base sólida en principios de diseño que aplico en el desarrollo web.",
-        "title02": "CFGS en desarrollo de aplicaciones web (DAW)",
-        "period02": "Sep 2023 - May 2025",
-        "desc02": "Estudios superiores en desarrollo web, donde he adquirido una base sólida tanto en frontend como backend. Durante el curso, he trabajado con tecnologías como PHP, JavaScript, MySQL, y he desarrollado proyectos completos desde cero.",
+        "description": "I am a full-stack developer passionate about creating exceptional web experiences. I specialize in developing dynamic, intuitive, and user-centered websites and applications, combining solid functionality with carefully crafted visual experiences. Thanks to my full-stack development training, I have a strong foundation in both frontend and backend technologies, allowing me to approach projects comprehensively. I am currently very motivated and eager to continue learning and growing as a developer.",
+        "title01": "Advanced Vocational Training Certificate in Graphic Design",
+        "period01": "September 2019 - June 2021",
+        "desc01": "Advanced Vocational Training Certificate in Illustration and Visual Design where I acquired skills in graphic design, branding, and tools such as Adobe Photoshop and Illustrator. This training provided me with a solid foundation in design principles that I apply to web development.",
+        "title02": "Advanced Vocational Training Certificate in Web Application Development (DAW)",
+        "period02": "September 2023 - May 2025",
+        "desc02": "Higher education in web development, where I acquired a solid foundation in both frontend and backend. During the course, I worked with technologies such as PHP, JavaScript, and MySQL, and developed complete projects from scratch.",
         "title03": "Sequentia",
-        "period03": "Ene 2025 - Jun 2025",
-        "desc03": "Desarrollador Full-Stack de la landing page para la startup Sequentia, desarrollando el proyecto con el framework React y Node.js."
+        "period03": "Jan 2025 - Jun 2025",
+        "desc03": "Full-Stack Developer of the landing page for the startup Sequentia, developing the project with the React framework and Node.js."
+    },
+    "projects": {
+        "Title": "Featured works"
+    },
+    "techno1": {
+        "01": "React",
+        "02": "Laravel",
+        "03": "React"
+    },
+    "techno2": {
+        "01": "Typescript",
+        "02": "PHP",
+        "03": "JavaScript"
+    },
+    "tecno3": {
+        "01": "Tailwind CSS",
+        "02": "MySQL",
+        "03": "Tailwind CSS"
+    },
+    "tecno4": {
+        "01": "Firebase",
+        "02": "Tailwind CSS",
+        "03": "OpenWeather API"
+    },
+    "tecno5": {
+        "01": "Figma",
+        "02": "Figma",
+        "03": "Vite"
+    },
+    "description": {
+        "01": "I developed the homepage for Sequentia, a startup specializing in creating custom web applications for small businesses. I used React to build a modern and responsive user interface and Node.js to manage the backend. The project included Firebase integration for user authentication and data storage, enabling a seamless and secure experience for site visitors.",
+        "02": "I developed a medical appointment management platform using Laravel for the backend and Tailwind CSS for the frontend. The project included creating an authentication system, appointment management, and an intuitive interface for doctors and patients. I implemented features such as viewing medical records and integrating with external APIs to enhance the user experience.",
+        "03": "I developed a weather application using React for the frontend and Tailwind CSS for the design. The application consumes the OpenWeather API to display real-time weather information, including forecasts and current conditions. I implemented an intuitive and responsive interface that allows users to quickly and efficiently check the weather for any location."
+    },
+    "details": {
+        "01": "Sequentia.app Project Details",
+        "02": "FCTnexus Project Details",
+        "03": "Weather Manager Project Details"
+    },
+    "details1": {
+        "01": "Landing page development using React+TS and Tailwind CSS.",
+        "02": "CRM development for customer and user management.",
+        "03": "Real-time data consumption from the OpenWeather API."
+    },
+    "details2": {
+        "01": "Firebase database developed for user management.",
+        "02": "Implementation of an authentication and password management system.",
+        "03": "Application developed with React + Vite for fast and efficient loading."
+    },
+"details3": {
+        "01": "Authentication system using Firebase.",
+        "02": "Database design in MySQL.",
+        "03": "Global location search."
+    },
+
+"details4": {
+        "01": "Integration of specific services such as virtual flower purchases.",
+        "02": "User interface development using Tailwind CSS.",
+        "03": "Responsive design adaptable to mobile, tablet, and desktop."
+    },
+
+"details5": {
+        "01": "Responsive design adaptable to mobile, tablet, and desktop.",
+        "02": "Collaboration with the CEAC FP team to adapt the software to their specific needs."
+    },
+    "resume": {
+        "01": "This project allowed me to consolidate my knowledge of full-stack development, creating a seamless user experience from scratch.",
+        "02": "This project allowed me to apply my knowledge of backend development with Laravel, as well as database design and the creation of interfaces tailored to the client's needs.",
+        "03": "This project allowed me to delve deeper into consuming external APIs and creating dynamic and responsive interfaces using React and Tailwind CSS."
+    },
+    "skilles": {
+        "p1": "I am an expert in frontend development with React, where I dedicate myself to creating interfaces that are dynamic, responsive, and very easy to use. I have experience integrating React with tools like Tailwind CSS to design modern and adaptive interfaces. I take care of transforming design mockups, such as those from Figma, into reusable and optimized components, ensuring that the user experience is smooth across different devices. Additionally, I have skills in consuming APIs and state management, which allows me to build applications that are scalable and easy to maintain.",
+        "p2": "On the backend, I specialize in development with Laravel. Over time, I have been deepening my understanding of the framework's structure and functionality, covering everything from creating APIs and internal routes to implementing custom middleware to optimize application security and performance. I consider that I have achieved significant progress in this learning, reflected in the complete creation and management of two projects from scratch, covering everything from database design and management to deployment in production environments."
     }
-
-    
-
-
 }

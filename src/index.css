@@ -6,3 +6,7 @@
   scrollbar-width: auto;
   scrollbar-color: #9333ea white;
 }
+
+html {
+  @apply scroll-smooth;
+}

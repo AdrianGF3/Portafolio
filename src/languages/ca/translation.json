@@ -5,5 +5,62 @@
         "works": "Treballs destacades",
         "skills": "Habilitats",
         "contact": "Contacte"
+    },
+    "home": {
+        "title": "Sóc Adrian Gomez",
+        "p1": "Desenvolupador web apassionat per transformar idees en aplicacions útils i eficients. Enfocat en generar impacte real i en un creixement continu."
+    },
+    "title": {
+        "01": "Sequentia.app",
+        "02": "FCTnexus",
+        "03": "consultes mèdiques"
+    },
+    "about": {
+        "title": "Sobre mi",
+        "description": "Sóc un desenvolupador full-stack apassionat per crear experiències web excepcionals. Em especialitzo en el desenvolupament de llocs web i aplicacions dinàmiques, intuïtives i centrades en l'usuari, combinant una sòlida funcionalitat amb experiències visuals acuradament dissenyades. Gràcies a la meva formació en desenvolupament full-stack, tinc una sòlida base tant en tecnologies frontend com backend, el que em permet abordar els projectes de forma integral. Actualment estic molt motivat i amb moltes ganes de seguir aprenent i creixent com a desenvolupador.",
+        "title01": "Certificat de Formació Professional Avançada en Disseny Gràfic",
+        "period01": "Setembre de 2019 - Juny ​​de 2021",
+        "desc01": "Certificat de Formació Professional Avançada en Il·lustració i Disseny Visual, on vaig adquirir habilitats en disseny gràfic, branding i eines com Adobe Photoshop i Illustrator. Aquesta formació em va proporcionar una sòlida base en els principis de disseny que aplico al desenvolupament web.",
+        "title02": "Certificat de Formació Professional Avançada en Desenvolupament d'Aplicacions Web (DAW)",
+        "period02": "Setembre de 2023 - Maig de 2025",
+        "desc02": "Estudis superiors en desenvolupament web, on vaig adquirir una sòlida base tant en frontend com en backend. Durant el curs, vaig treballar amb tecnologies com PHP, JavaScript i MySQL, i vaig desenvolupar projectes complets des de zero.",
+        "title03": "Sequentia",
+        "period03": "Gener de 2025 - Juny ​​de 2025",
+        "desc03": "Desenvolupador Full-Stack de la pàgina d'inici de la startup Sequentia, desenvolupant el projecte amb el framework React i Node.js."
+    },
+    "projects": {
+        "Title": "Treballs destacats"
+    },
+    "tecno1": {
+        "01": "React",
+        "02": "Laravel",
+        "03": "React"
+    },
+    "tecno2": {
+        "01": "Typescript",
+        "02": "PHP",
+        "03": "JavaScript"
+    },
+    "tecno3": {
+        "01": "Tailwind CSS",
+        "02": "MySQL",
+        "03": "Tailwind CSS"
+    },
+    "tecno4": {
+        "01": "Firebase",
+        "02": "Tailwind CSS",
+        "03": "OpenWeather API"
+    },
+    "tecno5": {
+        "01": "Figma",
+        "02": "Figma",
+        "03": "Vite"
+    },
+    
+
+
+    "skills": {
+        "p1": "Sóc un expert en desenvolupament frontend amb React, on em dedico a crear interfícies que són dinàmiques, responsives i molt fàcils d'utilitzar. Tinc experiència en integrar React amb eines com Tailwind CSS per dissenyar interfícies modernes i adaptatives. M'encarrego de transformar maquetes de disseny, com les de Figma, en components reutilitzables i optimitzats, assegurant que l'experiència de l'usuari sigui fluïda en diferents dispositius. A més, tinc habilitats en el consum d'APIs i en la gestió de l'estat, el que em permet construir aplicacions que són escalables i fàcils de mantenir.",
+        "p2": "En el backend, em especialitzo en el desenvolupament amb Laravel. A lo llarg del temps, he anat profunditzant en la estructura i funcionament del framework, abarcant des de la creació d'APIs i rutes internes, fins a la implementació de middleware personalitzat per optimitzar la seguretat i el rendiment de les aplicacions. Considero que he assolit un progrés significatiu en aquest aprenentatge, reflejat en la creació i gestió completa de dos projectes des de zero, abarcant des del disseny i gestió de la base de dades fins al seu desplegament en entorns de producció."
     }
 }

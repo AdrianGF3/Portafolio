@@ -31,11 +31,11 @@ function Navbar() {
                     Adrian G.
                 </div>
                 <ul className="hidden md:flex items-center gap-6 text-white">
-                    <li><a href="#home" className="hover:text-purple-500">{t("nav.home")}</a></li>
-                    <li><a href="#about" className="hover:text-purple-500">{t("nav.about")}</a></li>
-                    <li><a href="#projects" className="hover:text-purple-500">{t("nav.works")}</a></li>
-                    <li><a href="#skills" className="hover:text-purple-500">{t("nav.skills")}</a></li>
-                    <li><a href="#contact" className="hover:text-purple-500">{t("nav.contact")}</a></li>
+                    <li><a href="#home" className="hover:text-purple-500 scroll-smooth">{t("nav.home")}</a></li>
+                    <li><a href="#about" className="hover:text-purple-500 scroll-smooth">{t("nav.about")}</a></li>
+                    <li><a href="#projects" className="hover:text-purple-500 scroll-smooth">{t("nav.works")}</a></li>
+                    <li><a href="#skills" className="hover:text-purple-500 scroll-smooth">{t("nav.skills")}</a></li>
+                    <li><a href="#contact" className="hover:text-purple-500 scroll-smooth">{t("nav.contact")}</a></li>
                 </ul>
 
                 <button onClick={() => setMenuOpen(!menuOpen)}
@@ -48,11 +48,11 @@ function Navbar() {
 
                 {menuOpen && (
                     <ul className="md:hidden right-0 z-50 absolute h-full w-full gap-6 text-white text-center">
-                        <a href="#home"><li className=" bg-black hover:text-purple-500 pt-2" onClick={() => setMenuOpen(false)}>{t("nav.home")}</li></a>
-                        <a href="#about"><li className="bg-black hover:text-purple-500 pt-2" onClick={() => setMenuOpen(false)}>{t("nav.about")}</li></a>
-                        <a href="#projects"><li className="bg-black hover:text-purple-500 pt-2" onClick={() => setMenuOpen(false)}>{t("nav.works")}</li></a>
-                        <a href="#skills"><li className="bg-black hover:text-purple-500 pt-2" onClick={() => setMenuOpen(false)}>{t("nav.skills")}</li></a>
-                        <a href="#contact"><li className="bg-black hover:text-purple-500 pt-2 pb-2" onClick={() => setMenuOpen(false)}>{t("nav.contact")}</li></a>
+                        <a href="#home"><li className=" bg-black hover:text-purple-500 pt-2 scroll-smooth" onClick={() => setMenuOpen(false)}>{t("nav.home")}</li></a>
+                        <a href="#about"><li className="bg-black hover:text-purple-500 pt-2 scroll-smooth" onClick={() => setMenuOpen(false)}>{t("nav.about")}</li></a>
+                        <a href="#projects"><li className="bg-black hover:text-purple-500 pt-2 scroll-smooth" onClick={() => setMenuOpen(false)}>{t("nav.works")}</li></a>
+                        <a href="#skills"><li className="bg-black hover:text-purple-500 pt-2 scroll-smooth" onClick={() => setMenuOpen(false)}>{t("nav.skills")}</li></a>
+                        <a href="#contact"><li className="bg-black hover:text-purple-500 pt-2 pb-2 scroll-smooth" onClick={() => setMenuOpen(false)}>{t("nav.contact")}</li></a>
                     </ul>
                 )}
 

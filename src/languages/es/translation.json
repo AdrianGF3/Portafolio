@@ -5,5 +5,105 @@
         "works": "Trabajos destacados",
         "skills": "Habilidades",
         "contact": "Contacto"
+    },
+    "home": {
+        "title": "Soy Adrian Gomez",
+        "p1": "Desarrollador web apasionado por transformar ideas en aplicaciones útiles y eficientes. Enfocado en generar impacto real y en un crecimiento continuo."
+    },
+    "title": {
+        "01": "Sequentia.app",
+        "02": "FCTnexus",
+        "03": "consultas médicas"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "description": "Soy un desarrollador full-stack apasionado por crear experiencias web excepcionales. Me especializo en el desarrollo de sitios web y aplicaciones dinámicas, intuitivas y centradas en el usuario, combinando una sólida funcionalidad con experiencias visuales cuidadosamente diseñadas. Gracias a mi formación en desarrollo full-stack, cuento con una sólida base tanto en tecnologías frontend como backend, lo que me permite abordar los proyectos de forma integral. Actualmente estoy muy motivado y con muchas ganas de seguir aprendiendo y creciendo como desarrollador.",
+        "title01": "Certificado de Formación Profesional Avanzada en Diseño Gráfico",
+        "period01": "Septiembre de 2019 - Junio ​​de 2021",
+        "desc01": "Certificado de Formación Profesional Avanzada en Ilustración y Diseño Visual, donde adquirí habilidades en diseño gráfico, branding y herramientas como Adobe Photoshop e Illustrator. Esta formación me proporcionó una sólida base en los principios de diseño que aplico al desarrollo web.",
+        "title02": "Certificado de Formación Profesional Avanzada en Desarrollo de Aplicaciones Web (DAW)",
+        "period02": "Septiembre de 2023 - Mayo de 2025",
+        "desc02": "Estudios superiores en desarrollo web, donde adquirí una sólida base tanto en frontend como en backend. Durante el curso, trabajé con tecnologías como PHP, JavaScript y MySQL, y desarrollé proyectos completos desde cero.",
+        "title03": "Sequentia",
+        "period03": "Enero de 2025 - Junio ​​de 2025",
+        "desc03": "Desarrollador Full-Stack de la página de inicio de la startup Sequentia, desarrollando el proyecto con el framework React y Node.js."
+    },
+
+    "projects": {
+        "Title": "Trabajos destacados"
+    },
+    "tecno1": {
+        "01": "React",
+        "02": "Laravel",
+        "03": "React"
+    },
+    "tecno2": {
+        "01": "Typescript",
+        "02": "PHP",
+        "03": "JavaScript"
+    },
+    "tecno3": {
+        "01": "Tailwind CSS",
+        "02": "MySQL",
+        "03": "Tailwind CSS"
+    },
+    "tecno4": {
+        "01": "Firebase",
+        "02": "Tailwind CSS",
+        "03": "OpenWeather API"
+    },
+    "tecno5": {
+        "01": "Figma",
+        "02": "Figma",
+        "03": "Vite"
+    },
+
+    "description": {
+        "01": "Desarrollé la página de inicio de Sequentia, una startup que se especializa en la creación de aplicaciones web personalizadas para pequeñas empresas. Utilicé React para construir una interfaz de usuario moderna y responsiva, y Node.js para gestionar el backend. El proyecto incluyó la integración de Firebase para la autenticación de usuarios y el almacenamiento de datos, lo que permitió una experiencia fluida y segura para los visitantes del sitio.",
+        "02": "Desarrollé una plataforma de gestión de consultas médicas utilizando Laravel para el backend y Tailwind CSS para el frontend. El proyecto incluyó la creación de un sistema de autenticación, gestión de citas, y una interfaz intuitiva para médicos y pacientes. Implementé funcionalidades como la visualización de historiales médicos y la integración con APIs externas para mejorar la experiencia del usuario.",
+        "03": "Desarrollé una aplicación meteorológica utilizando React para el frontend y Tailwind CSS para el diseño. La aplicación consume la API de OpenWeather para mostrar información meteorológica en tiempo real, incluyendo pronósticos y condiciones actuales. Implementé una interfaz intuitiva y responsiva que permite a los usuarios consultar el clima de cualquier ubicación de manera rápida y eficiente."
+    },
+
+    "details": {
+        "01": "Detalles del proyecto Sequentia.app",
+        "02": "Detalles del proyecto FCTnexus",
+        "03": "Detalles del proyecto Gestor Clima"
+    },
+    "details1": {
+        "01": "Desarrollo de la landing page utilizando React+TS y Tailwind CSS.",
+        "02": "Desarrollo de un CRM para la gestión de clientes y usuarios.",
+        "03": "Consumo de datos en tiempo real desde la API de OpenWeather."
+    },
+    "details2": {
+        "01": "Base de datos desarrollada en Firebase para la gestión de usuarios.",
+        "02": "Implementación de un sistema de autenticación y gestión de contraseñas.",
+        "03": "Aplicación desarrollada con React + Vite para una carga rápida y eficiente."
+    },
+    "details3": {
+        "01": "Sistema de autenticación mediante Firebase.",
+        "02": "Diseño de la base de datos en MySQL.",
+        "03": "Búsqueda de ubicaciones a nivel global."
+    },
+    "details4": {
+        "01": "Integración de servicios específicos como la compra de flores virtuales.",
+        "02": "Desarrollo de la interfaz de usuario utilizando Tailwind CSS.",
+        "03": "Diseño responsive adaptable a móvil, tablet y escritorio."
+    },
+    "details5": {
+        "01": "Diseño responsive adaptable a móvil, tablet y escritorio.",
+        "02": "Colaboración con el equipo de CEAC FP para adaptar el software a sus necesidades específicas."
+        
+    },
+
+    "resume": {
+        "01": "Este proyecto me permitió consolidar mis conocimientos en desarrollo full stack, creando una experiencia de usuario fluida desde cero.",
+        "02": "Este proyecto me permitió aplicar mis conocimientos en desarrollo backend con Laravel, así como en diseño de bases de datos y creación de interfaces adaptadas a las necesidades del cliente.",
+        "03": "Este proyecto me permitió profundizar en el consumo de APIs externas y en la creación de interfaces dinámicas y responsivas utilizando React y Tailwind CSS."
+    },
+    
+
+    "skilles": {
+        "p1": "Soy un experto en desarrollo frontend con React, donde me dedico a crear interfaces que son dinámicas, responsivas y muy fáciles de usar. Tengo experiencia en integrar React con herramientas como Tailwind CSS para diseñar interfaces modernas y adaptativas. Me encargo de transformar maquetas de diseño, como las de Figma, en componentes reutilizables y optimizados, asegurando que la experiencia del usuario sea fluida en diferentes dispositivos. Además, tengo habilidades en el consumo de APIs y en la gestión del estado, lo que me permite construir aplicaciones que son escalables y fáciles de mantener.",
+        "p2": "En el backend, me especializo en el desarrollo con Laravel. A lo largo del tiempo, he ido profundizando en la estructura y funcionamiento del framework, abarcando desde la creación de APIs y rutas internas, hasta la implementación de middleware personalizado para optimizar la seguridad y el rendimiento de las aplicaciones. Considero que he logrado un progreso significativo en este aprendizaje, reflejado en la creación y gestión completa de dos proyectos desde cero, abarcando desde el diseño y gestión de la base de datos hasta su despliegue en ambientes de producción."
     }
 }
