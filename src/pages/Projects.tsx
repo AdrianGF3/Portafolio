@@ -5,6 +5,24 @@ function Projects() {
 
     const { t } = useTranslation();
 
+    interface Project {
+        image: string;
+        title: string;
+        tecno1?: string;
+        tecno2?: string;
+        tecno3?: string;
+        tecno4?: string;
+        tecno5?: string;
+        description: string;
+        details: string;
+        details1?: string;
+        details2?: string;
+        details3?: string;
+        details4?: string;
+        details5?: string;
+        resume: string;
+    }
+
     const projects = [
 
         {
@@ -62,15 +80,14 @@ function Projects() {
 
     const [current, setCurrent] = useState(0);
     const [modalOpen, setModalOpen] = useState(false);
-    const [modalContent, setModalContent] = useState(null);
-    const [dragOffset, setDragOffset] = useState(0);
+    const [modalContent, setModalContent] = useState<Project | null>(null); const [dragOffset, setDragOffset] = useState(0);
 
-    const dragStartX = useRef(null);
+    const dragStartX = useRef<number | null>(null);
 
     const prevSlide = () => setCurrent((prev) => (prev - 1 + projects.length) % projects.length);
     const nextSlide = () => setCurrent((prev) => (prev + 1) % projects.length);
 
-    const openModal = (project) => {
+    const openModal = (project: Project) => {
         setModalContent(project);
         setModalOpen(true);
     };
@@ -78,23 +95,45 @@ function Projects() {
 
 
     //arrastrar para cambiar de proyecto
-    const handleDragStart = (e) => {
-        const x = e.type.includes("touch") ? e.touches[0].clientX : e.clientX;
+    const handleDragStart = (e: React.MouseEvent<HTMLDivElement> |
+        React.TouchEvent<HTMLDivElement>) => {
+        const x = "touches" in e
+            ? e.touches[0].clientX
+            : e.clientX;
+
         dragStartX.current = x;
     };
 
     // Mientras se arrastra muestra el movimiento
-    const handleDragMove = (e) => {
+    const handleDragMove = (e: React.MouseEvent<HTMLDivElement> |
+        React.TouchEvent<HTMLDivElement>) => {
         if (dragStartX.current === null) return;
-        const x = e.type.includes("touch") ? e.touches[0].clientX : e.clientX;
+
+        let x: number;
+
+        if ("touches" in e) {
+            x = e.touches[0].clientX;
+        } else {
+            x = e.clientX;
+        }
+
         const diff = x - dragStartX.current;
         setDragOffset(diff);
     };
 
     // Al soltar, decide si cambiar de proyecto o no
-    const handleDragEnd = (e) => {
+    const handleDragEnd = (e: React.MouseEvent<HTMLDivElement> |
+        React.TouchEvent<HTMLDivElement>) => {
         if (dragStartX.current === null) return;
-        const x = e.type.includes("touch") ? e.changedTouches[0].clientX : e.clientX;
+
+        let x: number;
+
+        if ("changedTouches" in e) {
+            x = e.changedTouches[0].clientX;
+        } else {
+            x = e.clientX;
+        }
+
         const diff = x - dragStartX.current;
 
         if (diff > 50) prevSlide();
